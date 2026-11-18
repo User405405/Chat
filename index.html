@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Анонимный чат</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; background: #000; overflow: hidden; }
+  iframe { display: block; width: 100%; height: 100dvh; border: 0; }
+  .fallback {
+    display: none; color: #fff; font-family: system-ui, sans-serif;
+    text-align: center; padding: 40px 20px;
+  }
+  .fallback a { color: #0A84FF; }
+</style>
+</head>
+<body>
+  <!-- Если поменяешь имя генератора — замени e4aqzc87n3 в строке ниже на новое имя -->
+  <iframe src="https://perchance.org/e4aqzc87n3"
+          allow="camera; microphone; autoplay; clipboard-write"
+          title="Анонимный чат"></iframe>
+  <div class="fallback">
+    Чат не загрузился. Открой его напрямую:
+    <a href="https://perchance.org/e4aqzc87n3">perchance.org/e4aqzc87n3</a>
+  </div>
+  <noscript>
+    <div class="fallback" style="display:block">
+      Включи JavaScript. Или открой чат напрямую:
+      <a href="https://perchance.org/e4aqzc87n3">perchance.org/e4aqzc87n3</a>
+    </div>
+  </noscript>
+</body>
+</html>
